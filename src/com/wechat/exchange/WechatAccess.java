@@ -29,7 +29,7 @@ public class WechatAccess {
 	 * 查询微信接口调用凭据
 	 * @return
 	 */
-	public synchronized static String getAccessToken(){
+	public static String getAccessToken(){
 		if(accessToken == null){
 			fetchAccessToken();
 		}		
